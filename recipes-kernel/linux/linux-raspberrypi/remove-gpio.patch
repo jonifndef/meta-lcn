@@ -1,0 +1,12 @@
+diff --git a/arch/arm/boot/dts/bcm2836-rpi-2-b.dts b/arch/arm/boot/dts/bcm2836-rpi-2-b.dts
+index 6068ec390081..90c7ee104f6c 100644
+--- a/arch/arm/boot/dts/bcm2836-rpi-2-b.dts
++++ b/arch/arm/boot/dts/bcm2836-rpi-2-b.dts
+@@ -89,6 +89,7 @@ i2s_alt0: i2s_alt0 {
+ 		brcm,pins = <18 19 20 21>;
+ 		brcm,function = <BCM2835_FSEL_ALT0>;
+ 	};
++    status = "disabled";
+ };
+ 
+ &hdmi {
